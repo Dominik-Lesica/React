@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 .eslintrc.cjs
-
+.gitignore
+vite.config.js
 
 # Editor directories and files
 .vscode/*
