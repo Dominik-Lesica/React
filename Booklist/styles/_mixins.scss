@@ -1,0 +1,5 @@
+@mixin changeGridTemplate($breakpoint, $columns) {
+  @media (max-width: $breakpoint) {
+    grid-template-columns: repeat($columns, 1fr);
+  }
+}
