@@ -4,13 +4,13 @@ const MultipleEffects = () => {
   const [value, setValue] = useState(0);
   const [secondValue, setSecondValue] = useState(0);
 
-  // useEffect(() => {
-  //   console.log('hello from first useEffect');
-  // }, []);
+  useEffect(() => {
+    console.log('0');
+  }, [value]);
 
-  // useEffect(() => {
-  //   console.log('hello from second useEffect');
-  // }, []);
+  useEffect(() => {
+    console.log('1');
+  }, [secondValue]);
   return (
     <div>
       <h1>value : {value}</h1>

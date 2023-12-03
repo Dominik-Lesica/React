@@ -338,3 +338,30 @@ ul {
   text-transform: capitalize;
   display: inline-block;
 }
+
+
+
+.profile{
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.left-profile{
+  display: grid;
+  place-items: center;
+  width: 70px;
+}
+
+.right-profile p{
+  margin: 0;
+}
+
+.name{
+  font-size: 18px;
+}
+
+.right-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
