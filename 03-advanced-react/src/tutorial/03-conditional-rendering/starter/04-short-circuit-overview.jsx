@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
 const ShortCircuitOverview = () => {
-  return <h2>short circuit overview</h2>;
+  const [firstValue, setFirstValue] = useState('jonathaneal');
+  const [secondValue, setSecondValue] = useState(0);
+
+  return <h2>{firstValue || secondValue}</h2>;
 };
 export default ShortCircuitOverview;

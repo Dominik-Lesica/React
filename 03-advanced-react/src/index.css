@@ -365,3 +365,7 @@ ul {
   flex-direction: column;
   align-items: start;
 }
+
+body{
+  height: 500px;
+}
