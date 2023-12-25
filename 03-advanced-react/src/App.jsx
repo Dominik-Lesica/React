@@ -1,9 +1,9 @@
-import Example from "./tutorial/04-project-structure/starter/Example/Index";
+import Starter from './tutorial/06-forms/starter/05-form-data'
 
 export default function App() {
   return (
     <div className='container'>
-      <Example />
+      <Starter />
     </div>
   );
 }
